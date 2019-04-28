@@ -1,0 +1,205 @@
+{
+  "id": "02c5610f-ba6f-40d9-8ee2-c5c4025fe353",
+  "version": "2.0",
+  "name": "MIBGa",
+  "url": "http://ec2-18-191-231-34.us-east-2.compute.amazonaws.com/register.php",
+  "tests": [{
+    "id": "188fe189-ff83-4694-94aa-2ca794d74384",
+    "name": "Login ",
+    "commands": [{
+      "id": "c613f2ef-f878-4e10-8fe8-39af6ecae253",
+      "comment": "",
+      "command": "open",
+      "target": "/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5beab97-1bba-4e56-a9b2-849307358553",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb126154-6672-4ac1-b975-fc0fd1b6b0ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "339b46f3-8b6e-4919-9bb0-57e19dacb397",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "henry"
+    }, {
+      "id": "4efb74aa-17aa-4c17-b380-3da27b9d16a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84e523a4-e65f-47c1-b31e-9c8ad0b2009c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "dogs"
+    }, {
+      "id": "d648147a-1190-43cd-8159-c7af77b0e266",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c62e7aa1-d213-4195-bf17-b19554cd8548",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8e60410d-2980-46a6-8a5a-f01f75e00fc0",
+    "name": "Registration",
+    "commands": [{
+      "id": "314ab854-2cd6-481b-97a5-ff7b1a3e5893",
+      "comment": "",
+      "command": "open",
+      "target": "/register.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58d6e1a2-284c-4b53-b457-38297e90c674",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d87954db-2ce3-4253-bcc0-ba859906349f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85155a93-36a1-4a7d-9ae1-7e152ed56c5f",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e15dc552-b302-4ac7-afd0-a06b40c296a7",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Brandon"
+    }, {
+      "id": "e0598a63-9f43-4ea8-b391-b8448c840aa5",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Beeb@gmail.com"
+    }, {
+      "id": "609273ba-aaa2-40ee-9f40-83d630476719",
+      "comment": "",
+      "command": "type",
+      "target": "name=password_1",
+      "targets": [
+        ["name=password_1", "name"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='password_1']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Password"
+    }, {
+      "id": "5901aa16-58ff-4a51-8499-fa0fafa0ccf1",
+      "comment": "",
+      "command": "type",
+      "target": "name=password_2",
+      "targets": [
+        ["name=password_2", "name"],
+        ["css=.input-group:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='password_2']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Password"
+    }, {
+      "id": "67ae370e-755f-4868-ac17-6c81a6137f91",
+      "comment": "",
+      "command": "click",
+      "target": "name=reg_user",
+      "targets": [
+        ["name=reg_user", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='reg_user']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f9f71d5-f8d8-4b58-aed9-ab47cb69d54b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8080238c-ccd3-4e85-887a-8db1314c8483",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["188fe189-ff83-4694-94aa-2ca794d74384"]
+  }],
+  "urls": ["http://ec2-18-191-231-34.us-east-2.compute.amazonaws.com/", "http://ec2-18-191-231-34.us-east-2.compute.amazonaws.com/login.php"],
+  "plugins": []
+}
